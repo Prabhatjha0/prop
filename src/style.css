@@ -1,0 +1,224 @@
+html {
+   font-size: 16px;
+}
+
+body {
+   margin: 0;
+   padding: 0;
+   font-family: 'archive narrow', sans-serif;
+   font-size: 1rem;
+   color: #442222;
+}
+
+#navbar {
+   font-family: 'julius sans one', sans-serif;
+   display: flex;
+   width: auto;
+   height: 50px;
+   background-color: #fff1f2;
+}
+
+#logo {
+   padding-left: 35px;
+   padding-right: 35px;
+   padding-top: 7px;
+   margin-right: auto;
+   height: 40px;
+   width: auto;
+}
+
+.navbar_items {
+   margin: 1px;
+   padding: 15px 25px;
+   color: aliceblue;
+   background-color: #615fff;
+   border: 1px solid black;
+   font-size: 0.85rem;
+}
+
+.hrdv {
+   display: flex;
+   width: 1300px;
+   margin: 0 auto;
+}
+
+#description {
+   padding: 0 15px;
+   width: 50%;
+   max-width: 800px;
+   margin: 0 auto;
+   font-size: 1.25rem;
+}
+
+#teamimage {
+   width: 50%;
+   max-width: 500px;
+   margin: 0 auto;
+}
+
+#team {
+   width: 100%;
+}
+
+h1 {
+   font-family: 'julius sans one', sans-serif;
+   text-align: center;
+   margin-bottom: 0;
+   color: #000000;
+}
+
+h2 {
+   font-family: 'julius sans one', sans-serif;
+   text-align: center;
+   margin: 0;
+   color: #000000;
+}
+
+footer a:hover,
+footer a:focus {
+   font-size: 1rem;
+   color: red;
+}
+
+#navbar a:hover,
+#navbar a:focus {
+   text-decoration: underline;
+   color:#444444;
+}
+
+#banner {
+   width: 100%;
+}
+
+#jobs {
+   margin: 0 auto;
+   min-width: 1200px;
+   padding: 20px 20px;
+   margin-bottom: 40px;
+}
+
+a {
+   text-decoration: none;
+}
+
+#jobs_table {
+   width: 100%;
+   border: 1px solid gray;
+   border-collapse: collapse;
+}
+
+.jobs_table_header th {
+   border: 1px solid grey;
+   padding: 5px;
+   background-color: #ffe4e6;
+   color: #000000;
+   font-family: 'julius sans one', sans-serif;
+}
+
+.hrdv div:nth-child(odd) {
+   width: 50%;
+}
+
+#jobs_table tr:nth-child(even) {
+   background-color: #fff1f2;
+}
+
+.jobs_table_datarow td {
+   border-right: 1px solid grey;
+   padding: 5px;
+   text-align: center;
+}
+
+#application_form {
+   padding: 20px 10px;
+   max-width: 1000px;
+   margin: 0 auto;
+   font-size: 1rem;
+   color: #442222;
+}
+
+#application_form div {
+   padding: 10px 0;
+}
+#terms_conditions {
+   padding: 0;
+   font-size: 1rem;
+   color: #442222;
+}
+form span {
+   color: red;
+   font-weight: 700;
+   font-size: 0.85rem;
+}
+
+form textarea {
+   width: 70%;
+   height: 100px;
+   border: 1px solid #442222;
+}
+
+form input[type='text'],
+form input[type='email'],
+form input[type='number'],
+form input[type='password'],
+form input[type='date'],
+form select {
+   width: 350px;
+   height: 20px;
+   border: 1px solid #442222;
+}
+form input[type='file'] {
+   width: 350px;
+   height: 20px;
+   border: 1px solid #442222;
+   padding: 5px;
+   cursor: pointer;
+}
+form input[type='checkbox']{
+   width: 16px;
+   height: 16px;
+   border: 1px solid #442222;
+   cursor: pointer;
+}
+form input[type='submit']{
+   width: 5rem;
+   height: 2rem;
+   font-size: 1.2rem;
+   background-color: #bbbbbbbb;
+   border: 2px solid #666666;
+   color: #000000;
+   cursor: pointer;
+}
+form input[type='submit']:hover {
+   background-color: #00a63e;
+   color: #ffffff;
+}
+#submit{
+   width: 4rem;
+   margin:0 auto ;
+}
+
+footer {
+   width: 100%;
+   font-family: 'julius sans one', sans-serif;
+   padding: 5px 15px;
+   background-color: maroon;
+   border: 1px solid black;
+   font-size: 0.85rem;
+   margin: 0;
+
+}
+
+.foot {
+   text-align: center;
+   color: #ff637e;
+   margin-bottom: 0;
+}
+
+.white {
+   color: wheat;
+}
+
+ul {
+   list-style: none;
+}
