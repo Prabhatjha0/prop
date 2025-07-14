@@ -28,7 +28,7 @@ body {
 }
 
 .navbar_items {
-   margin: 1px;
+   margin-left: 2px;
    padding: 15px 25px;
    color: aliceblue;
    background-color: #615fff;
@@ -89,10 +89,11 @@ footer a:focus {
 
 #banner {
    width: 100%;
+   max-height: 400px;
+   min-height: 200px;
 }
 
 #jobs {
-   margin: 0 auto;
    min-width: 1200px;
    padding: 20px 20px;
    margin-bottom: 40px;
@@ -202,11 +203,10 @@ form input[type='submit']:hover {
 footer {
    width: 100%;
    font-family: 'julius sans one', sans-serif;
-   padding: 5px 15px;
+   padding: 5px 0;
    background-color: maroon;
-   border: 1px solid black;
    font-size: 0.85rem;
-   margin: 0 auto;
+   margin: 0;
 
 }
 
